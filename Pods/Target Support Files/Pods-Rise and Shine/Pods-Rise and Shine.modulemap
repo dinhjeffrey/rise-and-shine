@@ -1,0 +1,6 @@
+framework module Pods_Rise_and_Shine {
+  umbrella header "Pods-Rise and Shine-umbrella.h"
+
+  export *
+  module * { export * }
+}

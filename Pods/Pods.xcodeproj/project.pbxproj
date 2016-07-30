@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061AF1ECEDC2AC41628FD7E28F021DC6 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059B4B2123FED48F1640C546B27A088 /* Solar.swift */; };
+		0C45411FC4CAC8DB21AEC616C06B6F80 /* Solar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B797550F1889954D00712A65402849CC /* Solar-dummy.m */; };
+		5F28537988337A2545CCB66D70C0CD02 /* Pods-Rise and Shine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C381817FA33D0E3158CBE66E5D57E781 /* Pods-Rise and Shine-dummy.m */; };
+		7270901B22C6FE1F6C5A894CB0CB4D51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		740F5145BACB217CFAD0069D0FAA3D9E /* Pods-Rise and Shine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA0006C96DA9C40189296727F1B878B /* Pods-Rise and Shine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91664DF17A0882EF27289F56CCD7F61 /* Solar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EF4A9E519148D71CF4E98181842ABF /* Solar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6B3FFF3A9D3B2A21FA954C2B4F94AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63107370081853834B0CA2CBC9A45675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA40F184C06F9B6275F00430AE12089;
+			remoteInfo = Solar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D9AD8613F208E54B948EF0970AD1B1 /* Solar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Solar.modulemap; sourceTree = "<group>"; };
+		1669768F801B0336741BC9B04E060AC1 /* Pods-Rise and Shine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rise and Shine.release.xcconfig"; sourceTree = "<group>"; };
+		1BA0006C96DA9C40189296727F1B878B /* Pods-Rise and Shine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rise and Shine-umbrella.h"; sourceTree = "<group>"; };
+		2297F0C19D8010D1D0B100203D2F80D4 /* Pods_Rise_and_Shine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rise_and_Shine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386B7D3B8A0BBB17A9F450CE59EEFD74 /* Pods-Rise and Shine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rise and Shine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6869D98C4EB6790C66C71CF27F429450 /* Pods-Rise and Shine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rise and Shine-acknowledgements.plist"; sourceTree = "<group>"; };
+		7059B4B2123FED48F1640C546B27A088 /* Solar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Solar.swift; path = Source/Solar.swift; sourceTree = "<group>"; };
+		72134CCAE5273547F126F18A84076B42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7242BCECF657C6B46FFD9D1CDDFB6ECE /* Pods-Rise and Shine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rise and Shine.debug.xcconfig"; sourceTree = "<group>"; };
+		81EA020CFF900FD8B5D8D8E9177A7AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B797550F1889954D00712A65402849CC /* Solar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Solar-dummy.m"; sourceTree = "<group>"; };
+		BBA6DCA04CDE710A43BECA19F626FFCF /* Solar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Solar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE779C1B543A18945BA6D1944403037F /* Pods-Rise and Shine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Rise and Shine.modulemap"; sourceTree = "<group>"; };
+		C36BE64C59938640A65B82A733EA13BF /* Solar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Solar-prefix.pch"; sourceTree = "<group>"; };
+		C381817FA33D0E3158CBE66E5D57E781 /* Pods-Rise and Shine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rise and Shine-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA1291B810A147FDBE2BD57ECDAF2326 /* Solar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Solar.xcconfig; sourceTree = "<group>"; };
+		E51E2A25F832646F9D61E554B648E49F /* Pods-Rise and Shine-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rise and Shine-resources.sh"; sourceTree = "<group>"; };
+		E5EF4A9E519148D71CF4E98181842ABF /* Solar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Solar-umbrella.h"; sourceTree = "<group>"; };
+		E6FCD1AF873C7293932788CBE99E9C56 /* Pods-Rise and Shine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rise and Shine-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439D6051CC96CFD1DE5CBBA0CC982895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7270901B22C6FE1F6C5A894CB0CB4D51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E13CAD46A400AE0C39CFD1AE3F6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B3FFF3A9D3B2A21FA954C2B4F94AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13DA9333DAD6D14387034927542923CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3872F1F9F698BFCDC52BA62D96C6D10C /* Solar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3872F1F9F698BFCDC52BA62D96C6D10C /* Solar */ = {
+			isa = PBXGroup;
+			children = (
+				7059B4B2123FED48F1640C546B27A088 /* Solar.swift */,
+				F0EFE3DB68A74A937064DE280DA6CD49 /* Support Files */,
+			);
+			path = Solar;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43365848E97C5796A31F7025276BDA5F /* Pods-Rise and Shine */ = {
+			isa = PBXGroup;
+			children = (
+				72134CCAE5273547F126F18A84076B42 /* Info.plist */,
+				BE779C1B543A18945BA6D1944403037F /* Pods-Rise and Shine.modulemap */,
+				386B7D3B8A0BBB17A9F450CE59EEFD74 /* Pods-Rise and Shine-acknowledgements.markdown */,
+				6869D98C4EB6790C66C71CF27F429450 /* Pods-Rise and Shine-acknowledgements.plist */,
+				C381817FA33D0E3158CBE66E5D57E781 /* Pods-Rise and Shine-dummy.m */,
+				E6FCD1AF873C7293932788CBE99E9C56 /* Pods-Rise and Shine-frameworks.sh */,
+				E51E2A25F832646F9D61E554B648E49F /* Pods-Rise and Shine-resources.sh */,
+				1BA0006C96DA9C40189296727F1B878B /* Pods-Rise and Shine-umbrella.h */,
+				7242BCECF657C6B46FFD9D1CDDFB6ECE /* Pods-Rise and Shine.debug.xcconfig */,
+				1669768F801B0336741BC9B04E060AC1 /* Pods-Rise and Shine.release.xcconfig */,
+			);
+			name = "Pods-Rise and Shine";
+			path = "Target Support Files/Pods-Rise and Shine";
+			sourceTree = "<group>";
+		};
+		760E84B2A67A74D40DAD3EFA7AA37A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2297F0C19D8010D1D0B100203D2F80D4 /* Pods_Rise_and_Shine.framework */,
+				BBA6DCA04CDE710A43BECA19F626FFCF /* Solar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				13DA9333DAD6D14387034927542923CB /* Pods */,
+				760E84B2A67A74D40DAD3EFA7AA37A19 /* Products */,
+				A3394B398FA0B444436C7B29AC4098EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3394B398FA0B444436C7B29AC4098EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43365848E97C5796A31F7025276BDA5F /* Pods-Rise and Shine */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EFE3DB68A74A937064DE280DA6CD49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EA020CFF900FD8B5D8D8E9177A7AF3 /* Info.plist */,
+				02D9AD8613F208E54B948EF0970AD1B1 /* Solar.modulemap */,
+				DA1291B810A147FDBE2BD57ECDAF2326 /* Solar.xcconfig */,
+				B797550F1889954D00712A65402849CC /* Solar-dummy.m */,
+				C36BE64C59938640A65B82A733EA13BF /* Solar-prefix.pch */,
+				E5EF4A9E519148D71CF4E98181842ABF /* Solar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Solar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A180D5A2B52E3B45D9CC17346B48526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91664DF17A0882EF27289F56CCD7F61 /* Solar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520CF61AF225EEB3C05EA041C29D31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740F5145BACB217CFAD0069D0FAA3D9E /* Pods-Rise and Shine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6AA40F184C06F9B6275F00430AE12089 /* Solar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58056867C8BAAA11F4F2D3D78994E60B /* Build configuration list for PBXNativeTarget "Solar" */;
+			buildPhases = (
+				CD4B1F2F9E07B1063CC41BD3659B74B8 /* Sources */,
+				E45E13CAD46A400AE0C39CFD1AE3F6C3 /* Frameworks */,
+				1A180D5A2B52E3B45D9CC17346B48526 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solar;
+			productName = Solar;
+			productReference = BBA6DCA04CDE710A43BECA19F626FFCF /* Solar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEAD0F1C703A7A6A3BFEED8E88D900C5 /* Pods-Rise and Shine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97EF8A30664D98BD929818AB2CCD778 /* Build configuration list for PBXNativeTarget "Pods-Rise and Shine" */;
+			buildPhases = (
+				4C895F85757BFBECD5063CD06B9FFAFB /* Sources */,
+				439D6051CC96CFD1DE5CBBA0CC982895 /* Frameworks */,
+				C520CF61AF225EEB3C05EA041C29D31E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0491ACB81C577EA90BE1BEC75B5DE531 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rise and Shine";
+			productName = "Pods-Rise and Shine";
+			productReference = 2297F0C19D8010D1D0B100203D2F80D4 /* Pods_Rise_and_Shine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 760E84B2A67A74D40DAD3EFA7AA37A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAD0F1C703A7A6A3BFEED8E88D900C5 /* Pods-Rise and Shine */,
+				6AA40F184C06F9B6275F00430AE12089 /* Solar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C895F85757BFBECD5063CD06B9FFAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F28537988337A2545CCB66D70C0CD02 /* Pods-Rise and Shine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B1F2F9E07B1063CC41BD3659B74B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C45411FC4CAC8DB21AEC616C06B6F80 /* Solar-dummy.m in Sources */,
+				061AF1ECEDC2AC41628FD7E28F021DC6 /* Solar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0491ACB81C577EA90BE1BEC75B5DE531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Solar;
+			target = 6AA40F184C06F9B6275F00430AE12089 /* Solar */;
+			targetProxy = 63107370081853834B0CA2CBC9A45675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32270E9FCE5528238879DE5474393597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1669768F801B0336741BC9B04E060AC1 /* Pods-Rise and Shine.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rise and Shine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rise and Shine/Pods-Rise and Shine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rise_and_Shine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82CD9991D2ACAA1E650419DA5A950310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1291B810A147FDBE2BD57ECDAF2326 /* Solar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Solar/Solar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Solar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Solar/Solar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Solar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA224FF546EDF93E1D38AFA65F322A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7242BCECF657C6B46FFD9D1CDDFB6ECE /* Pods-Rise and Shine.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rise and Shine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rise and Shine/Pods-Rise and Shine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rise_and_Shine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0357BC3711A8C4132ABF54A6A434915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1291B810A147FDBE2BD57ECDAF2326 /* Solar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Solar/Solar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Solar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Solar/Solar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Solar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58056867C8BAAA11F4F2D3D78994E60B /* Build configuration list for PBXNativeTarget "Solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CD9991D2ACAA1E650419DA5A950310 /* Debug */,
+				D0357BC3711A8C4132ABF54A6A434915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97EF8A30664D98BD929818AB2CCD778 /* Build configuration list for PBXNativeTarget "Pods-Rise and Shine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA224FF546EDF93E1D38AFA65F322A91 /* Debug */,
+				32270E9FCE5528238879DE5474393597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
